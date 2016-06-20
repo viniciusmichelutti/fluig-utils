@@ -44,4 +44,5 @@ Now browse to the app at `http://localhost:8000/`.
 ### Tech
 * AngularJS
 * Node
+* LESS
 * A lot of JS
