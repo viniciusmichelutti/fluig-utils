@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="fluigutilsApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Fluig Utils</title>
+
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet/less" href="css/less/style.less" />
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/prefix-free/prefixfree.js"></script>
+        <script src="bower_components/less/dist/less.js"></script>
+        <script src="bower_components/angular.less/angular.less.js"></script>
+        <script src="app.module.js"></script>
+        <script src="app.config.js"></script>
+        
+        <!-- COMPONENTS -->
+        <script src="tools-list/tools-list.module.js"></script>
+        <script src="tools-list/tools-list.component.js"></script>
+    </head>
+    <body>
+        <header class="text-center">
+            <a href="/"><img src="imgs/fluig.png" /></a>
+        </header>
+        
+        <div ng-view></div>
+        
+        <footer>
+            <a href="/"><img src="imgs/fluig.png" /></a>
+        </footer>
+    </body>
+</html>
