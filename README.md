@@ -3,6 +3,8 @@ This project is an [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly create multiples requests, cancel all requests, create fake company, fake users, and much more...
 All you need is a Fluig instance running anywhere...
 
+![Screen](https://viniciusmichelutti.github.io/fluig-utils/screen.png)
+
 ## Getting Started
 To get you started you can simply clone this repository and install the dependencies:
 
