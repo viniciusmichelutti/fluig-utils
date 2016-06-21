@@ -12,8 +12,8 @@ To get you started you can simply clone this repository and install the dependen
 We have two kinds of dependencies in this project: tools and angular framework code.  The tools help
 us manage and test the application.
 
-* You get the tools you depend upon via `npm`, the [node package manager][npm].
-* You get the angular code via `bower`, a [client-side code package manager][bower].
+* You get the tools you depend upon via `npm`, the node package manager.
+* You get the angular code via `bower`, a client-side code package manager.
 
 I have preconfigured `npm` to automatically run `bower` so you can simply do:
 
